@@ -14,6 +14,15 @@ The system covers three main areas of zoo operations:
 - Develop a menu-driven application for zoo employees with easy-to-use interfaces for data entry and management.
 - Create a robust reporting system for management to analyze key performance indicators (KPIs) and make informed decisions.
 
+## Resources 
+#### Checkout more details by visitng resources folder
+
+Django Web Application output : [click here](https://github.com/MJshah001/TurtleBackZoo/blob/main/Resources/screenshots%20of%20output.pdf)
+
+Relational Diagram : [click here](https://github.com/MJshah001/TurtleBackZoo/blob/main/Resources/relational%20team%203.pdf)
+
+Enhanced Entity Relationship diagram : [click here](https://github.com/MJshah001/TurtleBackZoo/blob/main/Resources/EER%20Team%203.pdf)
+
 ## Key Changes from Phase 1 to Phase 2
 - **Concession Handling**: Added concessions as a separate entity for better tracking and reporting.
 - **Enclosure Entity**: Created a separate entity for enclosures instead of using attributes in a relationship.
@@ -43,8 +52,9 @@ The system is built with **Django** for the application logic and **PostgreSQL**
 - Develop mobile-friendly interfaces for real-time data entry.
 
 ## How to Run the Application
-1. Clone the repository: `git clone <repository-url>`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Set up the PostgreSQL database and apply migrations: `python manage.py migrate`
-4. Run the application: `python manage.py runserver`
+1. Clone the repository: `git clone https://github.com/MJshah001/TurtleBackZoo.git`
+2. Move into Directory: `cd TurtleBackZoo`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Set up the PostgreSQL database use [TurtleBackZoo_db_populate_data.sql](https://github.com/MJshah001/TurtleBackZoo/blob/main/Resources/TurtleBackZoo_db_populate_data.sql) file and apply migrations: `python manage.py migrate`
+5. Run the application: `python manage.py runserver`
 
